@@ -9,7 +9,7 @@ from PIL import Image
 
 
 
-def main(im):
+def main(imageFile):
 	
 	choice = '1'
 	while(choice != 'q'):
@@ -17,7 +17,7 @@ def main(im):
 		print "=============================================="
 		#im = raw_input("FileName: ")
 
-		im = Image.open(im)
+		im = Image.open(imageFile)
 
 		print "c) Select Picture"
 		print "1) filter 1"
@@ -41,8 +41,8 @@ def main(im):
 			print "Choice not recodnised, try again"
 		
 
-im = raw_input("FileName: ")
-main(im)
+imageFile = raw_input("FileName: ")
+main(imageFile)
 
 	
 
