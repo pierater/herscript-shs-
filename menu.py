@@ -6,6 +6,7 @@ from filter1 import filter1
 #from filter2 import filter2
 
 from PIL import Image
+import PIL
 
 
 

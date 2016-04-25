@@ -1,4 +1,5 @@
 from PIL import Image
+import PIL
 
 # this is an example of a filter you will be making!
 # 

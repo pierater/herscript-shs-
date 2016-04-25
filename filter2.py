@@ -1,5 +1,6 @@
 
 from PIL import Image
+import PIL
 '''
 So you have already seen our  other crazy filter with loops and variables
 Here I have provided you with a few functions that you can use on your image
